@@ -1,0 +1,22 @@
+signal:
+  num_samples: 1000
+  num_points: 512
+  freq_start: 0.1
+  freq_end: 1.0
+noise:
+  gaussian_std: 0.05
+  shot_scale: 0.02
+  drift_amplitude: 0.03
+training:
+  epochs: 50
+  batch_size: 32
+  learning_rate: 0.001
+  val_split: 0.15
+  test_split: 0.15
+paths:
+  clean_data: data/simulated_clean/
+  noisy_data: data/simulated_noisy/
+  processed: data/processed/
+  models: models/
+  figures: results/figures/
+  metrics: results/metrics_summary.csv
