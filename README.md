@@ -81,7 +81,7 @@ Top contributing frequency bands: **0.1–0.43 THz** — consistent with the dom
 
 ## Setup
 ```bash
-git clone https://github.com/YOUR_USERNAME/thz-biomedical-denoising
+git clone https://github.com/Kritika-bme/thz-biomedical-denoising
 cd thz-biomedical-denoising
 pip install -r requirements.txt
 ```
